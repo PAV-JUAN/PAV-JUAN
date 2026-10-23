@@ -1,20 +1,31 @@
 # Hi, I'm Juan 👋
 
-Pablo Veloso on paper, Juan to everyone else. IT Support Technician and Application Administrator in Montreal.
-I like automating the repetitive parts of IT and running my own infrastructure at home.
 
-- 🛠️ **At work:** user support, application administration, and testing releases before they go live
-- 🏠 **At home:** an Ubuntu server running ~12 self-hosted apps in Docker, private remote access through Tailscale, nightly encrypted backups with automatic restore tests, and monitoring with Uptime Kuma
-- 🌐 **Languages:** French, English, Spanish
+Pablo on paper, Juan to everyone else.
 
-## Projects
+I do IT support and app administration at a software company in Montreal. That means helping users, keeping our application running, and testing releases before they reach clients. In my free time I run (and occasionally break) my own Ubuntu server at home.
 
-| Project | What it does | Built with |
-|---|---|---|
-| [mail2jira](https://github.com/PAV-JUAN/mail2jira) | Turns support emails into Jira tickets, filtering out noise | Python, Microsoft Graph, Jira API, Docker, pytest, GitHub Actions |
-| [flight-tracker](https://github.com/PAV-JUAN/flight-tracker) | Tracks flight prices weekly and charts the best days to fly | Python, PostgreSQL, SQL, Grafana, Docker, cron |
-| [homelab](https://github.com/PAV-JUAN/homelab) | My home server's real configuration, rebuildable from the repo | Docker Compose, Linux, Tailscale, VPN routing |
+Most of what's here started as "this is annoying, can I automate it?" — support emails that shouldn't become tickets, flight prices I was checking by hand, a server I want to be able to rebuild from scratch if the disk dies.
 
-## Tools
+I'm planning to spend 2027 in the Netherlands, and I'm looking for work in system administration or QA.
 
-Linux (Ubuntu) · Docker · Python · PostgreSQL · Git · Grafana · Tailscale · Microsoft 365 / Azure
+What I've built
+
+homelab: my home server's real configuration. Around 15 apps in Docker, private access through Tailscale, nightly encrypted backups that I actually test, and a section on everything that went wrong.
+
+flight-tracker: tracks Montreal ↔ Amsterdam fares every week, because I fly that route a lot. It has its own website, Fare Watch, that I built from scratch.
+
+mail2jira: turns support emails into Jira tickets and skips the noise, in English and French. Based on a tool I used at work.
+
+What I use
+
+Linux (Ubuntu) · Docker · Python · PostgreSQL · Git · Caddy · Tailscale · Grafana · Microsoft 365 / Azure · Jira
+
+Right now
+Building my own Android music app that streams from my server. I'm tired of Spotify raising its price every year while the app gets worse with each update, so I'd rather own my music library and the player.
+Studying for the CCNA
+Languages
+
+French, English and Spanish. Spanish was actually my first language. It's the one I use least these days, but I speak it without any problem.
+
+En français : Technicien de soutien informatique à Montréal. Je m'occupe de mon propre serveur Ubuntu à la maison et j'automatise ce qui me fait perdre du temps. Les projets ci-dessus sont documentés en anglais, mais n'hésitez pas à m'écrire en français.
