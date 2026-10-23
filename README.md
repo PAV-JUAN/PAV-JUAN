@@ -24,7 +24,6 @@ Linux (Ubuntu) · Docker · Python · PostgreSQL · Git · Caddy · Tailscale ·
 ## Right now
 
 - Building my own Android music app that streams from my server. I'm tired of Spotify raising its price every year while the app gets worse with each update, so I'd rather own my music library and the player.
-- Studying for the CCNA
 
 ## Languages
 
