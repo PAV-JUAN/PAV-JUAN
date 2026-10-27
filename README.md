@@ -1,6 +1,5 @@
 # Hi, I'm Juan 👋
 
-
 Pablo on paper, Juan to everyone else.
 
 I do IT support and app administration at a software company in Montreal. That means helping users, keeping our application running, and testing releases before they reach clients. In my free time I run (and occasionally break) my own Ubuntu server at home.
@@ -11,7 +10,9 @@ I'm planning to spend 2027 in the Netherlands, and I'm looking for work in syste
 
 ## What I've built
 
-**[homelab](https://github.com/PAV-JUAN/homelab)**: my home server's real configuration. Around 15 apps in Docker, private access through Tailscale, nightly encrypted backups that I actually test, and a section on everything that went wrong.
+**[juanitor](https://github.com/PAV-JUAN/juanitor)**: a local AI that watches my home server and sends my phone what broke and why. It runs entirely on a 2011 PC with no GPU, so most of the work was making a small model reliable: I tested it on 14 scenarios until it stopped making things up (41/42 passing). On day one, it found out my scheduled backups had never actually run.
+
+**[homelab](https://github.com/PAV-JUAN/homelab)**: my home server's real configuration. Around 15 apps in Docker, private access through Tailscale, daily encrypted backups that I actually test, and a section on everything that went wrong.
 
 **[flight-tracker](https://github.com/PAV-JUAN/flight-tracker)**: tracks Montreal ↔ Amsterdam fares every week, because I fly that route a lot. It has its own website, [Fare Watch](https://flights.ricamivida.com), that I built from scratch.
 
@@ -19,11 +20,12 @@ I'm planning to spend 2027 in the Netherlands, and I'm looking for work in syste
 
 ## What I use
 
-Linux (Ubuntu) · Docker · Python · PostgreSQL · Git · Caddy · Tailscale · Grafana · Microsoft 365 / Azure · Jira
+Linux (Ubuntu) · Docker · Python · PostgreSQL · SQLite · Git · systemd · Caddy · Tailscale · Grafana · Ollama · Microsoft 365 / Azure · Jira
 
 ## Right now
 
 - Building my own Android music app that streams from my server. I'm tired of Spotify raising its price every year while the app gets worse with each update, so I'd rather own my music library and the player.
+- Adding more checks to Juanitor, and keeping my homelab repo up to date with everything that changed.
 
 ## Languages
 
