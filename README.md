@@ -6,8 +6,6 @@ I do IT support and app administration at a software company in Montreal. That m
 
 Most of what's here started as "this is annoying, can I automate it?" — support emails that shouldn't become tickets, flight prices I was checking by hand, a server I want to be able to rebuild from scratch if the disk dies.
 
-I'm planning to spend 2027 in the Netherlands, and I'm looking for work in system administration or QA.
-
 ## What I've built
 
 **[juanitor](https://github.com/PAV-JUAN/juanitor)**: a local AI that watches my home server and sends my phone what broke and why. It runs entirely on a 2011 PC with no GPU, so most of the work was making a small model reliable: I tested it on 14 scenarios until it stopped making things up (41/42 passing). On day one, it found out my scheduled backups had never actually run.
